@@ -1,7 +1,3 @@
-terraform {
-  experiments = [module_variable_optional_attrs]
-}
-
 resource "aws_cloudfront_cache_policy" "policy" {
   name        = var.name
   comment     = var.description
